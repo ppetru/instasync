@@ -1,0 +1,15 @@
+module.exports = {
+    db_conn: {
+        host       : process.argv[2] || "localhost",
+        user       : 'user',
+        password   : 'password',
+        database   : 'database',
+        charset    : 'utf8mb4'
+    },
+    api: {
+        url:     'https://example.com',
+        version: "v5.0",
+        key:     'dead:beef'
+    },
+    instagramToken: "lsdkfjsdaslkdfjdsklfj"
+}

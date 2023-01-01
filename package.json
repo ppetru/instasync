@@ -1,0 +1,13 @@
+{
+  "name": "instasync",
+  "version": "1.0.0",
+  "main": "sync.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tryghost/admin-api": "^1.13.2",
+    "axios": "^1.2.1",
+    "mysql2": "^2.3.3",
+    "nodejs-file-downloader": "^4.10.3",
+    "slugify": "^1.6.5"
+  }
+}
